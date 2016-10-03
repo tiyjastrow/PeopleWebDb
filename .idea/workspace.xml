@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70de5f92-fc93-4743-8ab5-dc49dc50b214" name="Default" comment="" />
+    <list default="true" id="70de5f92-fc93-4743-8ab5-dc49dc50b214" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="PeopleWebDb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PeopleWeb.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeopleWeb.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PeopleWeb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1353">
@@ -35,6 +37,16 @@
                 <marker date="1475527513000" expanded="true" signature="1248:1281" ph="SELECT * FRO... people" />
                 <marker date="1475527513000" expanded="true" signature="2012:2050" ph="SELECT * FRO... people" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,6 +115,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/PeopleWeb.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -747,7 +760,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475520989455</updated>
-      <workItem from="1475520993156" duration="4609000" />
+      <workItem from="1475520993156" duration="4664000" />
     </task>
     <servers />
   </component>
@@ -778,7 +791,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4609000" />
+    <option name="totallyTimeSpent" value="4664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -886,6 +899,14 @@
             <marker date="1475527513000" expanded="true" signature="1248:1281" ph="SELECT * FRO... people" />
             <marker date="1475527513000" expanded="true" signature="2012:2050" ph="SELECT * FRO... people" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
