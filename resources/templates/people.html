@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade = Exceeds Expectations</title>
+</head>
+<body>
+{{#names}}
+<a href="/person?id={{id}}">
+    {{firstName}}
+    {{lastName}}<br></a>
+{{/names}}
+
+{{#previous}}
+<a href="/?offset={{.}}">Previous</a>
+{{/previous}}
+
+{{#next}}
+<a href="/?offset={{.}}">Next</a>
+{{/next}}
+
+
+{{#nameDetail}}
+
+Name: {{firstName}}
+{{lastName}}<br> Email:
+{{email}}<br> Country:
+{{country}}<br> IP-Address:
+{{ipAddress}}
+
+{{/nameDetail}}
+
+</body>
+</html>
