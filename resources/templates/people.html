@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People</title>
+</head>
+<body>
+{{#people}}
+    <a href="/person?id={{id}}">{{name}}</a><br/>
+{{/people}}<br/>
+
+{{#prev}}
+    <a href="/?offset={{.}}">&lt;&lt;Previous</a>
+{{/prev}}
+
+{{#muchLess}}
+<a href="/?offset={{.}}">{{prev2}}</a>
+{{/muchLess}}
+{{#prev}}
+<a href="/?offset={{.}}">{{prev1}}</a>
+{{/prev}}
+
+<a href="" style="color:#f00;">{{current}}</a>
+
+{{#next}}
+<a href="/?offset={{.}}">{{next1}}</a>
+{{/next}}
+{{#muchMore}}
+<a href="/?offset={{.}}">{{next2}}</a>
+{{/muchMore}}
+
+{{#next}}
+    <a href="/?offset={{.}}">Next&gt;&gt;</a>
+{{/next}}
+<br/><br/>
+{{#prev}}
+<a href="/?offset=0">&lt;&lt;&lt;&lt;First</a>
+{{/prev}}&nbsp;&nbsp;&nbsp;
+{{#next}}
+<a href="/?offset={{last}}">Last&gt;&gt;&gt;&gt;</a>
+{{/next}}
+</body>
+</html>
