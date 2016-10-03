@@ -49,14 +49,16 @@ public class PeopleWeb {
                     if (offsetNumber >= 20){
                         previous = offsetNumber - 20;
                     }
+                    m.put("people", listOf20People);
                     m.put("next", next);
                     m.put("previous", previous);
-                    m.put("people", listOf20People);
+
                     return new ModelAndView(m, "people.html");
                 }),
                 new MustacheTemplateEngine()
         );
 
+        // trying to change something
         Spark.get("/person",
                 ((request, response) -> {
                     HashMap m = new HashMap();
