@@ -1,0 +1,14 @@
+<html>
+<body>
+
+{{#people}}
+<form action="/person" method="get">
+   <button type="submit" value="{{id}}" name="id">{{id}} {{firstName}} {{lastName}}</button>
+</form>
+{{/people}}
+<form action="/" method="get">
+   <button type="submit" value="-20" name="offset">Previous</button>
+   <button type="submit" value="20" name="offset">Next</button>
+</form>
+</body>
+</html>
