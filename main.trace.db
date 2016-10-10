@@ -1,0 +1,12 @@
+2016-10-03 17:09:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE DROP TABLE[*] IF EXISTS PEOPLE (ID IDENTITY, FIRST_NAME VARCHAR, LAST_NAME VARCHAR, EMAIL VARCHAR, COUNTRY VARCHAR, IP VARCHAR) "; SQL statement:
+CREATE TABLE DROP TABLE IF EXISTS people (id IDENTITY, first_name VARCHAR, last_name VARCHAR, email VARCHAR, country VARCHAR, ip VARCHAR) [42000-192]
+2016-10-03 17:10:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users VALUES (NULL ,?,?,?,?,?) [42102-192]
+2016-10-03 17:11:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT LIMIT 20 OFFSET[*] ? ID, FIRST_NAME, LAST_NAME, EMAIL, COUNTRY, IP FROM PEOPLE   "; expected "[, ::, SELECT, FROM, WITH"; SQL statement:
+SELECT LIMIT 20 OFFSET ? id, first_name, last_name, email, country, ip FROM people   [42001-192]
+2016-10-04 08:34:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT LIMIT 20 OFFSET[*] ? ID, FIRST_NAME, LAST_NAME, EMAIL, COUNTRY, IP FROM PEOPLE   "; expected "[, ::, SELECT, FROM, WITH"; SQL statement:
+SELECT LIMIT 20 OFFSET ? id, first_name, last_name, email, country, ip FROM people   [42001-192]
