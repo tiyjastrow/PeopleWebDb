@@ -45,7 +45,7 @@ public class PeopleWeb {
                     ArrayList twenty = selectPeople(conn, offset);
 
                     m.put("previous", previous);
-                    
+
                     m.put("next", next);
 
                     m.put("people", twenty);
