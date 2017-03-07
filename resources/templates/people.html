@@ -1,0 +1,24 @@
+<html>
+<body>
+
+{{#prevOffset}}
+<a href="/?offset={{prevOffset}}">
+    <button type="submit">Previous</button>
+</a>
+{{/prevOffset}}
+
+{{#nextOffset}}
+<a href="/?offset={{nextOffset}}">
+    <button type="submit">Next</button>
+</a>
+{{/nextOffset}}
+
+<ul>
+{{#p}}
+    <a href="/person?id={{idNumber}}"> <li>{{firstName}} {{lastName}}</li> </a>
+{{/p}}
+</ul>
+
+
+</body>
+</html>
