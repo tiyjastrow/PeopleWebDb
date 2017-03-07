@@ -1,0 +1,19 @@
+<html>
+
+</head>
+<body>
+
+{{#person}}
+    {{idNumber}}<br> {{firstName}} {{lastName}}<br> {{email}}<br> {{country}}<br> {{ipAddress}}<br>
+{{/person}}
+
+{{^person}}
+<span style="font-color: red;">User doesn't exist.</span>
+{{/person}}
+
+<form action="/back" method="post">
+    <button type="submit">Back</button>
+</form>
+
+</body>
+</html>
